@@ -1,0 +1,503 @@
+* {
+    margin: 0px;
+}
+
+.navbar {
+    
+    height: 80px;
+    background-color: black;
+    padding: 15px;
+}
+.navbar-nav {
+    margin: auto ;
+}
+.btn {
+    color: white !important;
+    border: solid 1px white !important;
+}
+.btn-outline-success {
+    --bs-btn-hover-bg: rgb(46, 46, 46) !important;
+    --bs-btn-active-bg:rgb(46, 46, 46) !important;
+}
+.dropdown-menu {
+    background-color: rgb(32, 32, 32);
+    --bs-dropdown-link-hover-bg:rgb(46, 46, 46) !important;
+    --bs-dropdown-link-active-bg:rgb(46, 46, 46) !important;
+}
+.nav-item a {
+
+    display: inline-block;
+    padding-inline: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white ;
+    font-size: 1.2rem;
+}
+
+.nav-item-gral ul li {
+    display: inline-block;
+    padding-inline: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.nav-item-gral ul {
+    margin: auto;
+}
+.nav-item-gral ul li a {
+    text-decoration: none;
+    color: white;
+}
+.nav-content a {
+    text-decoration: none;
+}
+
+.nav-icons a {
+    margin-top: 5px;
+
+}
+
+.nav-icons img {
+    width: 3.5vw;
+}
+
+.video-header {
+    width: 100%;
+    height: 100%;
+    max-height: 75vh;
+    overflow: hidden;
+
+}
+video {
+    width: 100%;
+    position: relative;
+}
+
+.video-title {
+    position: absolute;
+    bottom: 315px;
+    left: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 3.5vw;
+    color: rgb(255, 255, 255);
+}
+.video-subtitle {
+    position: absolute;
+    bottom: 200px;
+    left: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(255, 255, 255);
+    width: 45%;
+}
+
+.footer-a {
+    background-color: rgb(32, 32, 32);
+    height: 330px;
+    padding: 70px;
+    display: block;
+    text-align: center;
+}
+
+.footer-icons img {
+    width: 2.5vw;
+}
+
+.footer-icons a {
+    text-decoration: none;
+}
+.footer-content {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300px;
+}
+
+.footer-content a {
+    
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+}
+
+.footer-content h5 {
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+.carousel-images img {
+    border-radius: 3%;
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+.carousel-images {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+}
+
+
+.main-bg {
+    background-color: rgb(26, 26, 26);
+    padding: 120px 0;
+    
+}
+
+.main-titles {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px;
+    font-size: 1.6rem;
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.movie-name {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300px;
+    color: white;
+    padding: 6px;
+    font-size: 1.1rem;
+}
+
+
+.movie-sub {
+    display: flex;
+    border-radius: 10%;
+    padding-inline: 5px;
+    background-color: rgb(32, 32, 32);
+    margin: auto;
+}
+.card {
+    --bs-card-bg: rgb(32, 32, 32);
+    margin: 5px;
+}
+.card-body {
+    padding: 0px !important;
+}
+
+.series-name {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300px;
+    color: white;
+    padding: 6px;
+    font-size: 1.1rem;
+}
+
+.series-sub {
+    display: flex;
+    border-radius: 10%;
+    padding-inline: 5px;
+    background-color: rgb(32, 32, 32);
+    margin: auto;
+}
+
+
+
+.section-series {
+    margin-top: 50px;
+}
+
+/* PAGE LOG-IN */
+
+.login-bg {
+    background-image: url('../images/login-bg.jpg');
+    background-position: bottom;
+    background-size: cover;
+    padding: 300px;
+    text-align: center;
+}
+
+.login-form {
+    background-color: rgb(26, 26, 26);
+    padding: 30px;
+    margin: auto;
+    width: 70%;
+    height: 70vh;
+}
+
+.login-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(180, 180, 180);
+    text-align: center;
+}
+
+
+
+.form-log {
+    width: 90%;
+  max-width: 600px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.form-log input {
+    width: 90%;
+    height: 50px;
+    margin: 0.5rem;
+}
+
+
+/* PAGE PRIVACIDAD  */
+.nav-ayuda {
+    margin-top: 20px;
+    display: inline-block;
+    padding-inline: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.priv-content {
+    background-color: rgb(236, 236, 236);
+    padding: 150px;
+}
+
+.priv-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: rgb(26, 26, 26);
+    font-size: 2.8rem;
+    padding-bottom: 20px;
+}
+
+.priv-text {
+    line-height: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    padding-bottom: 25px;
+}
+
+.priv-subtitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: rgb(26, 26, 26);
+    font-size: 1.4rem;
+    padding: 10px 0px;
+}
+
+/* PAGE CONTÁCTO  */
+.contacto-content {
+    background-color: rgb(236, 236, 236);
+    padding: 60px 400px;
+    margin-top: 50px;
+}
+
+.contacto-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: rgb(26, 26, 26);
+    font-size: 2.8rem;
+    padding-bottom: 20px;
+}
+
+.contacto-subtitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: rgb(26, 26, 26);
+    font-size: 1.3rem;
+    padding: 20px 0px;
+}
+
+.contacto-text {
+    line-height: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    padding-bottom: 25px;
+    text-align: justify;
+}
+
+.contacto-text2 {
+    line-height: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    padding-bottom: 25px;
+}
+
+.contacto-text a {
+    text-decoration: none;
+}
+
+.contacto-msj {
+    width: 70%;
+    height: 30px;
+    padding: 5px;
+}
+.contacto-submit {
+    width: 10%;
+    height: 42px;
+    padding: 5px;
+}
+
+.contacto-info {
+    width: 20vh;
+    height: 80px;
+    border-radius: 7%;
+    padding: 20px;
+    margin-inline: 10px;
+    display: inline-block;
+    background-color: rgb(200, 200, 200);
+}
+
+.contacto-info h5 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* PAGE TERMINOS DE USO  */
+
+.terminos-content {
+    background-color: rgb(236, 236, 236);
+    padding: 200px 300px;
+}
+
+.terminos-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: rgb(26, 26, 26);
+    font-size: 2.8rem;
+    padding-bottom: 20px;
+}
+
+.terminos-text {
+    line-height: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    padding-bottom: 25px;
+
+}
+
+.terminos-subtitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: rgb(26, 26, 26);
+    font-size: 1.4rem;
+    padding: 10px 0px;
+}
+
+
+.navbar-toggler {
+    display: none;
+}
+.nav-link:focus, .nav-link:hover {
+    color: white;
+}
+/* MEDIAQUERIES */
+
+@media (max-width: 930px) {
+    .carousel-images {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .nav-icons {
+        display: none;
+    }
+    .navbar-collapse {
+        background-color: black;
+        padding: 5px;
+        border-radius: 3%;
+    }
+    .main-titles {
+        margin-left: 15px;
+    }
+    .main-bg {
+        padding: 60px 0px;
+    }
+    .navbar-toggler {
+        display: flex;
+    }
+    .nav-item-gral {
+        display: none;
+    }
+    .search-form {
+        display: none;
+    }
+    .offcanvas {
+        --bs-offcanvas-bg: rgb(26, 26, 26);
+    }
+    .offcanvas-title {
+        color: white;
+    }
+    .card {
+        width: 30vw !important;
+    }
+    .footer-icons img {
+        width: 5vw;
+    }
+    .video-header {
+        max-height: 70vh;
+    }
+
+
+    .login-bg {
+        padding: 120px;
+    }
+    
+    .login-form {
+        width: 100%;
+        height: 70vh;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    
+    .login-title {
+        font-size: 1.2rem;
+    }
+    
+    
+    .form-log {
+        width: 90%;
+        padding: 10px;
+        
+    
+    }
+    
+    .form-log input {
+        padding: 5px;
+        margin: 10px;
+        width: 100%;
+    }
+
+
+
+
+}
+
+@media (max-width: 656px) {
+    .carousel-images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card {
+        width: 40vw !important;
+    }
+    .footer-icons img {
+        width: 8vw;
+    }
+    .video-header {
+    
+        max-height: 34vh;
+    }
+    .video-title {
+        bottom: 410px;
+        left: 50px;
+        font-size: 3.5vw;
+    }
+    .video-subtitle {
+        bottom: 380px;
+        left: 50px;
+        font-size: 1.5vw;
+        width: 65%;
+    }
+    .login-bg {
+        padding: 80px 20px;
+    }
+    
+}
