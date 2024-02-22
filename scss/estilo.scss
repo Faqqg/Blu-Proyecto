@@ -34,7 +34,7 @@
     background-color: rgb(32, 32, 32);
     --bs-dropdown-link-hover-bg: rgb(46, 46, 46) !important;
     --bs-dropdown-link-active-bg: rgb(46, 46, 46) !important;
-    
+
 }
 
 /* Estilos para los elementos de navegación */
@@ -48,6 +48,7 @@
         font-size: 1.2rem;
         transition: color 0.3s ease;
     }
+
     &:hover a {
         color: rgba(238, 238, 238, 0.7);
     }
@@ -70,6 +71,7 @@
                 color: white;
                 transition: color 0.3s ease;
             }
+
             &:hover a {
                 color: rgba(238, 238, 238, 0.7);
             }
@@ -94,6 +96,7 @@
             transition: transform 0.3s ease;
         }
     }
+
     a:hover img {
         transform: scale(1.1);
     }
@@ -111,6 +114,7 @@
     .video-container {
         position: relative;
         background-color: rgb(26, 26, 26);
+
         video {
             width: 100%;
             height: auto;
@@ -159,9 +163,12 @@
     /* Estilos para los íconos del pie de página */
     .footer-icons {
         img {
+            margin-inline: 6px;
+            margin-bottom: 10px;
             width: 2.5vw;
             transition: transform 0.3s ease;
         }
+
         a:hover img {
             transform: scale(1.2);
         }
@@ -181,6 +188,7 @@
             color: rgb(180, 180, 180);
             transition: color 0.3s ease;
         }
+
         a:hover {
             color: white;
         }
@@ -188,7 +196,7 @@
         h5 {
             margin-top: 15px;
             font-size: 1rem;
-            
+
         }
     }
 }
@@ -248,6 +256,7 @@
     --bs-card-bg: rgb(32, 32, 32);
     margin: 5px;
     transition: all 0.4s;
+
     .card-body {
         padding: 0px !important;
     }
@@ -283,11 +292,11 @@
         background-color: rgb(26, 26, 26);
         border-radius: 10px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        padding: 30px; 
+        padding: 30px;
         margin: auto;
-        width: 90%; 
-        max-width: 600px; 
-        height: auto; 
+        width: 90%;
+        max-width: 600px;
+        height: auto;
         overflow: hidden;
         transition: all 0.3s ease;
 
@@ -298,7 +307,7 @@
             color: rgb(180, 180, 180);
             text-align: center;
             margin-bottom: 20px;
-           
+
         }
 
         .form-log {
@@ -318,12 +327,13 @@
                 border: 1px solid #ccc;
                 border-radius: 5px;
                 transition: all 0.3s ease;
+
                 &:focus {
                     outline: none;
                     border-color: #200065;
                 }
             }
-            
+
         }
     }
 }
@@ -491,9 +501,11 @@
     .nav-icons {
         display: none;
     }
+
     .navbar {
         height: 70px;
     }
+
     /* Estilos para el menú desplegable de la barra de navegación en dispositivos móviles */
     .navbar-collapse {
         background-color: black;
@@ -502,8 +514,11 @@
     }
 
     /* Estilos para los títulos principales en dispositivos móviles */
-    .main-titles {
-        margin-left: 15px;
+    .main-bg {
+        .main-titles {
+            margin-left: 15px;
+            font-size: 1.5rem;
+        }
     }
 
     /* Estilos para el fondo principal en dispositivos móviles */
@@ -542,22 +557,29 @@
     }
 
     /* Estilos para los íconos del pie de página en dispositivos móviles */
-    .footer-icons img {
-        width: 5vw;
+    .footer-a {
+        .footer-icons {
+            a {
+                img {
+                    width: 4vw;
+                }
+            }
+        }
     }
-
     /* Estilos para el enc
 
 abezado de video en dispositivos móviles */
     .video-header {
         max-height: 70vh;
+
         .video-content {
-            .video-title{
+            .video-title {
                 h3 {
                     padding-top: 40px;
                     font-size: 2rem;
                 }
             }
+
             .video-subtitle {
                 p {
                     font-size: 1.2rem;
@@ -567,7 +589,7 @@ abezado de video en dispositivos móviles */
         }
     }
 
-    
+
     /* Estilos para el fondo de inicio de sesión en dispositivos móviles */
     .login-bg {
         padding: 120px;
@@ -598,6 +620,12 @@ abezado de video en dispositivos móviles */
 }
 
 @media (max-width: 656px) {
+    .blu-icon {
+        img {
+            margin-top: 5px;
+            width: 60px;
+        }
+    }
 
     /* Estilos para el carrusel de imágenes en dispositivos móviles más pequeños */
     .carousel-images {
@@ -610,28 +638,38 @@ abezado de video en dispositivos móviles */
     }
 
     /* Estilos para los íconos del pie de página en dispositivos móviles más pequeños */
-    .footer-icons img {
-        width: 8vw;
+    .footer-a {
+        .footer-icons {
+            a {
+                img {
+                    width: 8vw;
+                }
+            }
+        }
     }
 
     /* Estilos para el encabezado de video en dispositivos móviles más pequeños */
     .video-header {
         max-height: 34vh;
+
         .video-content {
-            .video-title{
+            .video-title {
                 h3 {
                     padding-top: 60px;
-                    font-size: 1rem;
+                    font-size: 1.4rem;
                 }
             }
+
             .video-subtitle {
+                width: 100%;
+
                 p {
-                    font-size: 0.6rem;
-                    width: 100%;
+                    font-size: 0.8rem;
+
                 }
             }
         }
-      
+
     }
 
     /* Estilos para el fondo de inicio de sesión en dispositivos móviles más pequeños */

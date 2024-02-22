@@ -134,6 +134,8 @@
   /* Estilos para el contenido del pie de página */
 }
 .footer-a .footer-icons img {
+  margin-inline: 6px;
+  margin-bottom: 10px;
   width: 2.5vw;
   transition: transform 0.3s ease;
 }
@@ -443,8 +445,9 @@
     border-radius: 3%;
   }
   /* Estilos para los títulos principales en dispositivos móviles */
-  .main-titles {
+  .main-bg .main-titles {
     margin-left: 15px;
+    font-size: 1.5rem;
   }
   /* Estilos para el fondo principal en dispositivos móviles */
   .main-bg {
@@ -475,8 +478,8 @@
     width: 30vw !important;
   }
   /* Estilos para los íconos del pie de página en dispositivos móviles */
-  .footer-icons img {
-    width: 5vw;
+  .footer-a .footer-icons a img {
+    width: 4vw;
   }
   /* Estilos para el enc
 
@@ -517,6 +520,10 @@
   }
 }
 @media (max-width: 656px) {
+  .blu-icon img {
+    margin-top: 5px;
+    width: 60px;
+  }
   /* Estilos para el carrusel de imágenes en dispositivos móviles más pequeños */
   .carousel-images {
     grid-template-columns: repeat(2, 1fr);
@@ -526,7 +533,7 @@
     width: 40vw !important;
   }
   /* Estilos para los íconos del pie de página en dispositivos móviles más pequeños */
-  .footer-icons img {
+  .footer-a .footer-icons a img {
     width: 8vw;
   }
   /* Estilos para el encabezado de video en dispositivos móviles más pequeños */
@@ -535,11 +542,13 @@
   }
   .video-header .video-content .video-title h3 {
     padding-top: 60px;
-    font-size: 1rem;
+    font-size: 1.4rem;
+  }
+  .video-header .video-content .video-subtitle {
+    width: 100%;
   }
   .video-header .video-content .video-subtitle p {
-    font-size: 0.6rem;
-    width: 100%;
+    font-size: 0.8rem;
   }
   /* Estilos para el fondo de inicio de sesión en dispositivos móviles más pequeños */
   .login-bg {
