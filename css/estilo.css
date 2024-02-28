@@ -216,6 +216,38 @@
   margin-top: 50px;
 }
 
+.acceso-general {
+  background-image: url("../images/login-bg.jpg");
+  background-position: bottom;
+  background-size: cover;
+  padding: 300px;
+  display: flex;
+  justify-content: center;
+}
+.acceso-general .acceso {
+  background-color: rgb(26, 26, 26);
+  width: 300px;
+  height: 350px;
+  margin-top: 60px;
+  box-shadow: 7px 13px 37px black;
+  padding: 20px 30px;
+  font-family: "Bebas Neue", cursive;
+}
+.acceso-general .acceso h2 {
+  margin: 0;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid;
+  font-size: 30px;
+}
+.acceso-general .controls {
+  width: 70%;
+  border: 2px solid #5e025e;
+  margin-bottom: 15px;
+  padding: 7px 5px;
+}
+
 .login-bg {
   background-image: url("../images/login-bg.jpg");
   background-position: bottom;
@@ -290,8 +322,8 @@
 
 .contacto-content {
   background-color: rgb(236, 236, 236);
-  padding: 60px 400px;
-  margin-top: 50px;
+  padding: 100px 230px;
+  margin: 100px;
 }
 .contacto-content .contacto-title {
   font-family: "Roboto Condensed", sans-serif;
@@ -306,6 +338,7 @@
   color: rgb(26, 26, 26);
   font-size: 1.3rem;
   padding: 20px 0px;
+  text-align: center;
 }
 .contacto-content .contacto-text {
   line-height: 1.4rem;
@@ -329,12 +362,17 @@
   padding: 5px;
 }
 .contacto-content .contacto-submit {
-  width: 10%;
+  width: 100%;
   height: 42px;
   padding: 5px;
+  margin: 10px 0;
+}
+.contacto-content .contacto-input {
+  width: 50%;
+  margin: auto;
 }
 .contacto-content .contacto-info {
-  width: 20vh;
+  width: 30vh;
   height: 80px;
   border-radius: 7%;
   padding: 20px;
@@ -346,6 +384,10 @@
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
   font-size: 1.1rem;
+}
+.contacto-content .accordion {
+  width: 50%;
+  margin: auto;
 }
 
 .terminos-content {
@@ -456,6 +498,46 @@
     padding: 5px;
     margin: 10px;
     width: 100%;
+  }
+  .priv-content {
+    padding: 100px 40px;
+  }
+  .priv-content .priv-title {
+    font-size: 1.8rem;
+  }
+  .priv-content .priv-text {
+    font-size: 1rem;
+  }
+  .contacto-content {
+    padding: 90px 40px;
+    margin: 0px;
+  }
+  .contacto-content .contacto-title {
+    font-size: 1.8rem;
+  }
+  .contacto-content .contacto-input {
+    width: 100%;
+  }
+  .contacto-content .contacto-input .form-floating {
+    overflow: hidden;
+  }
+  .contacto-content .contacto-subtitle {
+    font-size: 1.2rem;
+  }
+  .contacto-content .contacto-text {
+    line-height: 1.2rem;
+    font-size: 1.1rem;
+    text-align: start;
+  }
+  .contacto-content .accordion {
+    width: 100%;
+  }
+  .terminos-content {
+    padding: 90px 40px;
+    margin: 0px;
+  }
+  .terminos-content .terminos-title {
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 656px) {

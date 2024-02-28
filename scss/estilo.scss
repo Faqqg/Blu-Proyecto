@@ -1,4 +1,3 @@
-
 $primary-font: 'Roboto Condensed', sans-serif;
 $secondary-font: 'Montserrat', sans-serif;
 
@@ -262,6 +261,43 @@ $secondary-font: 'Montserrat', sans-serif;
     margin-top: 50px;
 }
 
+.acceso-general {
+    background-image: url('../images/login-bg.jpg');
+    background-position: bottom;
+    background-size: cover;
+    padding: 300px;
+    display: flex;
+    justify-content: center;
+
+    .acceso {
+        background-color: rgb(26, 26, 26);
+        width: 300px;
+        height: 350px;
+        margin-top: 60px;
+        box-shadow: 7px 13px 37px black;
+        padding: 20px 30px;
+        font-family: 'Bebas Neue', cursive;
+
+        h2 {
+            margin: 0;
+            text-align: center;
+            height: 40px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid;
+            font-size: 30px;
+        }
+    }
+    .controls {
+        width: 70%;
+        border: 2px solid #5e025e;
+        margin-bottom: 15px;
+        padding: 7px 5px;
+    }
+   
+}
+
+
+
 .login-bg {
     background-image: url('../images/login-bg.jpg');
     background-position: bottom;
@@ -270,7 +306,7 @@ $secondary-font: 'Montserrat', sans-serif;
 
     .login-form {
         background-color: rgb(26, 26, 26);
-        
+
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         padding: 30px;
         margin: auto;
@@ -289,7 +325,7 @@ $secondary-font: 'Montserrat', sans-serif;
             margin-bottom: 20px;
         }
 
-        .form-log{
+        .form-log {
             width: 100%;
             max-width: 600px;
             margin: 30px auto;
@@ -304,7 +340,7 @@ $secondary-font: 'Montserrat', sans-serif;
                 margin: 10px 0;
                 padding: 10px;
                 border: 1px solid #ccc;
-                
+
                 transition: all 0.3s ease;
 
                 &:focus {
@@ -346,8 +382,8 @@ $secondary-font: 'Montserrat', sans-serif;
 
 .contacto-content {
     background-color: rgb(236, 236, 236);
-    padding: 60px 400px;
-    margin-top: 50px;
+    padding: 100px 230px;
+    margin: 100px;
 
     .contacto-title {
         font-family: $primary-font;
@@ -363,6 +399,7 @@ $secondary-font: 'Montserrat', sans-serif;
         color: rgb(26, 26, 26);
         font-size: 1.3rem;
         padding: 20px 0px;
+        text-align: center;
     }
 
     .contacto-text {
@@ -391,13 +428,19 @@ $secondary-font: 'Montserrat', sans-serif;
     }
 
     .contacto-submit {
-        width: 10%;
+        width: 100%;
         height: 42px;
         padding: 5px;
+        margin: 10px 0;
+    }
+
+    .contacto-input {
+        width: 50%;
+        margin: auto;
     }
 
     .contacto-info {
-        width: 20vh;
+        width: 30vh;
         height: 80px;
         @include border-radius(7%);
         padding: 20px;
@@ -410,6 +453,11 @@ $secondary-font: 'Montserrat', sans-serif;
             font-weight: bold;
             font-size: 1.1rem;
         }
+    }
+
+    .accordion {
+        width: 50%;
+        margin: auto;
     }
 }
 
@@ -543,6 +591,65 @@ $secondary-font: 'Montserrat', sans-serif;
                 margin: 10px;
                 width: 100%;
             }
+        }
+    }
+
+    // SECTION PRIVACIDAD
+
+    .priv-content {
+        padding: 100px 40px;
+
+        .priv-title {
+            font-size: 1.8rem;
+        }
+
+        .priv-text {
+            font-size: 1rem;
+        }
+
+    }
+
+
+    // SECTION CONTACTO
+
+    .contacto-content {
+        padding: 90px 40px;
+        margin: 0px;
+
+        .contacto-title {
+            font-size: 1.8rem;
+        }
+
+        .contacto-input {
+            width: 100%;
+
+            .form-floating {
+                overflow: hidden;
+            }
+        }
+
+        .contacto-subtitle {
+            font-size: 1.2rem;
+        }
+
+        .contacto-text {
+            line-height: 1.2rem;
+            font-size: 1.1rem;
+            text-align: start;
+        }
+
+        .accordion {
+            width: 100%;
+        }
+    }
+
+    // SECTION TÉRMINOS
+    .terminos-content {
+        padding: 90px 40px;
+        margin: 0px;
+
+        .terminos-title {
+            font-size: 1.8rem;
         }
     }
 }
