@@ -1,40 +1,33 @@
-@charset "UTF-8";
 * {
   margin: 0px;
 }
 
-/* Estilos de la barra de navegación */
 .navbar {
   height: 100px;
   background-color: black;
   padding: 15px;
   transition: background-color 0.3s ease;
-  /* Estilos para la lista de navegación en la barra */
 }
 .navbar-nav {
   margin: auto;
 }
 
-/* Estilos de los botones */
 .btn {
   color: white !important;
   border: solid 1px white !important;
   transition: background-color 0.3s ease;
-  /* Estilos para el botón de éxito con contorno */
 }
 .btn-outline-success {
   --bs-btn-hover-bg: rgb(46, 46, 46) !important;
   --bs-btn-active-bg: rgb(46, 46, 46) !important;
 }
 
-/* Estilos del menú desplegable */
 .dropdown-menu {
   background-color: rgb(32, 32, 32);
   --bs-dropdown-link-hover-bg: rgb(46, 46, 46) !important;
   --bs-dropdown-link-active-bg: rgb(46, 46, 46) !important;
 }
 
-/* Estilos para los elementos de navegación */
 .nav-item a {
   display: inline-block;
   padding-inline: 20px;
@@ -48,7 +41,6 @@
   color: rgba(238, 238, 238, 0.7);
 }
 
-/* Estilos generales para elementos de lista de navegación */
 .nav-item-gral ul {
   margin: auto;
 }
@@ -68,12 +60,10 @@
   color: rgba(238, 238, 238, 0.7);
 }
 
-/* Estilos para el contenido de la navegación */
 .nav-content a {
   text-decoration: none;
 }
 
-/* Estilos para los íconos de navegación */
 .nav-icons a {
   margin-top: 5px;
 }
@@ -85,7 +75,6 @@
   transform: scale(1.1);
 }
 
-/* Estilos para el encabezado de video */
 .video-header {
   position: relative;
   width: 100%;
@@ -123,15 +112,12 @@
   width: 80%;
 }
 
-/* Estilos para el pie de página */
 .footer-a {
   background-color: rgb(32, 32, 32);
   height: 330px;
   padding: 70px;
   display: block;
   text-align: center;
-  /* Estilos para los íconos del pie de página */
-  /* Estilos para el contenido del pie de página */
 }
 .footer-a .footer-icons img {
   margin-inline: 6px;
@@ -162,7 +148,6 @@
   font-size: 1rem;
 }
 
-/* Estilos para las imágenes del carrusel */
 .carousel-images {
   justify-items: center;
   display: grid;
@@ -171,16 +156,14 @@
   grid-template-rows: repeat(2, 1fr);
 }
 .carousel-images img {
-  border-radius: 3%;
+  border-radius: 5px;
   width: 100%;
   padding-bottom: 0px;
 }
 
-/* Estilos para el fondo principal */
 .main-bg {
   background-color: rgb(26, 26, 26);
   padding: 120px 0;
-  /* Estilos para los títulos principales */
 }
 .main-bg .main-titles {
   font-family: "Montserrat", sans-serif;
@@ -191,7 +174,6 @@
   margin-bottom: 20px;
 }
 
-/* Estilos para nombres de películas */
 .movie-name {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 300px;
@@ -200,7 +182,6 @@
   font-size: 1.1rem;
 }
 
-/* Estilos para subtítulos de películas y series */
 .movie-sub,
 .series-sub {
   display: flex;
@@ -210,7 +191,6 @@
   margin: auto;
 }
 
-/* Estilos para las tarjetas */
 .card {
   --bs-card-bg: rgb(32, 32, 32);
   margin: 5px;
@@ -224,7 +204,6 @@
   scale: 1.1;
 }
 
-/* Estilos para nombres de series */
 .series-name {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 300px;
@@ -233,22 +212,18 @@
   font-size: 1.1rem;
 }
 
-/* Estilos para la sección de series */
 .section-series {
   margin-top: 50px;
 }
 
-/* Estilos para el fondo de inicio de sesión */
 .login-bg {
   background-image: url("../images/login-bg.jpg");
   background-position: bottom;
   background-size: cover;
   padding: 300px;
-  /* Estilos para el formulario de inicio de sesión */
 }
 .login-bg .login-form {
   background-color: rgb(26, 26, 26);
-  border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   padding: 30px;
   margin: auto;
@@ -281,7 +256,6 @@
   margin: 10px 0;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
   transition: all 0.3s ease;
 }
 .login-bg .login-form .form-log input:focus {
@@ -289,13 +263,9 @@
   border-color: #200065;
 }
 
-/* Estilos para el contenido de privacidad */
 .priv-content {
   background-color: rgb(236, 236, 236);
   padding: 150px;
-  /* Estilos para el título de privacidad */
-  /* Estilos para el texto de privacidad */
-  /* Estilos para el subtítulo de privacidad */
 }
 .priv-content .priv-title {
   font-family: "Roboto Condensed", sans-serif;
@@ -318,17 +288,10 @@
   padding: 10px 0px;
 }
 
-/* Estilos para el contenido de contacto */
 .contacto-content {
   background-color: rgb(236, 236, 236);
   padding: 60px 400px;
   margin-top: 50px;
-  /* Estilos para el título de contacto */
-  /* Estilos para el subtítulo de contacto */
-  /* Estilos para el texto de contacto */
-  /* Estilos para los enlaces de contacto */
-  /* Estilos para el formulario de contacto */
-  /* Estilos para la información de contacto */
 }
 .contacto-content .contacto-title {
   font-family: "Roboto Condensed", sans-serif;
@@ -385,13 +348,9 @@
   font-size: 1.1rem;
 }
 
-/* Estilos para el contenido de términos de uso */
 .terminos-content {
   background-color: rgb(236, 236, 236);
   padding: 200px 300px;
-  /* Estilos para el título de términos de uso */
-  /* Estilos para el texto de términos de uso */
-  /* Estilos para el subtítulo de términos de uso */
 }
 .terminos-content .terminos-title {
   font-family: "Roboto Condensed", sans-serif;
@@ -414,76 +373,58 @@
   padding: 10px 0px;
 }
 
-/* Estilos para el botón de alternar la barra de navegación en dispositivos móviles */
 .navbar-toggler {
   display: none;
 }
 
-/* Estilos para el color de enlace de navegación al enfocar o pasar el mouse */
 .nav-link:focus,
 .nav-link:hover {
   color: white;
 }
 
-/* Media queries */
 @media (max-width: 930px) {
-  /* Estilos para el carrusel de imágenes en dispositivos móviles */
   .carousel-images {
     grid-template-columns: repeat(3, 1fr);
   }
-  /* Estilos para los íconos de navegación en dispositivos móviles */
   .nav-icons {
     display: none;
   }
   .navbar {
     height: 70px;
   }
-  /* Estilos para el menú desplegable de la barra de navegación en dispositivos móviles */
   .navbar-collapse {
     background-color: black;
     padding: 5px;
     border-radius: 3%;
   }
-  /* Estilos para los títulos principales en dispositivos móviles */
   .main-bg .main-titles {
     margin-left: 15px;
     font-size: 1.5rem;
   }
-  /* Estilos para el fondo principal en dispositivos móviles */
   .main-bg {
     padding: 60px 0px;
   }
-  /* Estilos para el botón de alternar la barra de navegación en dispositivos móviles */
   .navbar-toggler {
     display: flex;
   }
-  /* Estilos para los elementos de navegación generales en dispositivos móviles */
   .nav-item-gral {
     display: none;
   }
-  /* Estilos para el formulario de búsqueda en dispositivos móviles */
   .search-form {
     display: none;
   }
-  /* Estilos para el panel deslizante en dispositivos móviles */
   .offcanvas {
     --bs-offcanvas-bg: rgb(26, 26, 26);
   }
-  /* Estilos para el título del panel deslizante en dispositivos móviles */
   .offcanvas-title {
     color: white;
   }
-  /* Estilos para las tarjetas en dispositivos móviles */
   .card {
     width: 30vw !important;
   }
-  /* Estilos para los íconos del pie de página en dispositivos móviles */
   .footer-a .footer-icons a img {
     width: 4vw;
   }
-  /* Estilos para el enc
-
-  abezado de video en dispositivos móviles */
   .video-header {
     max-height: 70vh;
   }
@@ -495,11 +436,9 @@
     font-size: 1.2rem;
     width: 100%;
   }
-  /* Estilos para el fondo de inicio de sesión en dispositivos móviles */
   .login-bg {
     padding: 120px;
   }
-  /* Estilos para el formulario de inicio de sesión en dispositivos móviles */
   .login-form {
     width: 100%;
     height: 70vh;
@@ -524,19 +463,15 @@
     margin-top: 5px;
     width: 60px;
   }
-  /* Estilos para el carrusel de imágenes en dispositivos móviles más pequeños */
   .carousel-images {
     grid-template-columns: repeat(2, 1fr);
   }
-  /* Estilos para las tarjetas en dispositivos móviles más pequeños */
   .card {
     width: 40vw !important;
   }
-  /* Estilos para los íconos del pie de página en dispositivos móviles más pequeños */
   .footer-a .footer-icons a img {
     width: 8vw;
   }
-  /* Estilos para el encabezado de video en dispositivos móviles más pequeños */
   .video-header {
     max-height: 34vh;
   }
@@ -544,13 +479,9 @@
     padding-top: 60px;
     font-size: 1.4rem;
   }
-  .video-header .video-content .video-subtitle {
-    width: 100%;
-  }
   .video-header .video-content .video-subtitle p {
     font-size: 0.8rem;
   }
-  /* Estilos para el fondo de inicio de sesión en dispositivos móviles más pequeños */
   .login-bg {
     padding: 120px 20px;
   }
